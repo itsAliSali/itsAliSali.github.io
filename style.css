@@ -99,9 +99,16 @@ body {
 .card li {
     /* display: ; */
     margin-left: 20px;
-    padding: 5px;
+    /* padding: 5px; */
 }
 
 .card h2 {
     font-size: 18px;
+    padding: 10px;
+}
+.card a {
+    font-style: italic;
+    text-decoration: none;
+    color:mediumblue
+
 }

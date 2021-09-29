@@ -1,0 +1,134 @@
+/* header {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5), url('bg.jpeg'));
+    background-image: url('bg.jpeg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+} */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* background:linear-gradient(0.25turn, rgba(68, 66, 46, 0.5), rgb(163, 162, 153)) */
+    background: linear-gradient(0.25turn, #B0C4DE, #E0FFFF);
+    /* text-align: center; */
+   font-family:'Times New Roman', Times, serif;
+}
+
+.nav-menu {
+    /* margin-left: auto;
+    margin-right: auto; */
+    /* float:left; */
+    /* display: block; */
+    /* list-style: none; */
+    position: fixed;
+    /* top: 0px; */
+    /* width: 100%; */
+    /* margin: auto; */
+    width: 300px;
+    padding: 30px;
+    /* padding-top: 5px; */
+    /* background-color: rgb(46, 85, 214); */
+}
+
+.nav-menu li {
+    /* margin-left: auto;
+    margin-right: auto; */
+    /* display: inline-block; */
+    /* display: block; */
+    /* list-style: none; */
+}
+
+.nav-menu li a {
+    display: block;
+    color: rgb(231, 233, 240);
+    text-decoration: none;
+    padding: 5px 20px;
+    
+    font-size: 25px;
+    font-weight: 500;
+   
+}
+
+.home-btn a {
+    background-color: #070a1dde;
+    
+}
+.other-btn a {
+    background-color: #222c3bce;
+}
+.other-btn a:hover {
+    color: #87CEEB;
+}
+
+.home-btn a:hover {
+    /* background-color: #FFFAFA; */
+    color: #87CEEB;
+}
+.nav-menu img {
+    width: 300px;
+    border-radius: 50%;
+}
+
+.card {
+    /* text-align: center; */
+    width: 800px;
+    padding: 30;
+    padding-top: 50;
+    
+    background-color: #FFFAFA;
+    border-radius: 15px;
+    /* margin-left: 20px; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* references */
+.card h1 {
+    font-size: 30px;
+}
+
+/* card container */
+.list_ppl li {
+    display: inline-block;
+    padding: 15px;
+}
+.list_ppl img {
+    width: 200px;
+}
+.list_ppl div {
+    background-color:#D3D3D3;
+    height:max-content;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+/* table */
+table {
+    width: 85%;
+    table-layout: fixed;
+    margin-top: 10px;
+    border-collapse: collapse;
+    
+}
+th {
+    font-size: 23px;;
+}
+td {
+    font-size: 20px;
+    padding-left: 10px;
+    height: 35px;
+}
+tr {
+    border-bottom: 1px solid;
+    height: max-content;
+}
+tr:nth-child(even) {
+    background-color: #D3D3D3;
+}
+tr:hover {
+    background-color: #B0C4DE;
+}

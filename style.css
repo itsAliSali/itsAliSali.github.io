@@ -1,49 +1,27 @@
-/* header {
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5), url('bg.jpeg'));
-    background-image: url('bg.jpeg');
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
-} */
 * {
     margin: 0;
     padding: 0;
 }
 
 body {
-    /* background:linear-gradient(0.25turn, rgba(68, 66, 46, 0.5), rgb(163, 162, 153)) */
     background: linear-gradient(0.25turn, #B0C4DE, #E0FFFF);
     /* text-align: center; */
    font-family:'Times New Roman', Times, serif;
 }
 
-.left_side {
-    width: 300px;
-    padding: 30px;
+.left-side {
+    /* width: 300px; */
+    /* padding: 30px; */
 }
 
 .nav-menu {
-    /* margin-left: auto;
-    margin-right: auto; */
-    /* float:left; */
-    /* display: block; */
-    /* list-style: none; */
-    position: fixed;
-    /* top: 0px; */
-    /* width: 100%; */
-    /* margin: auto; */
-    /* width: 300px;
-    padding: 30px; */
-    /* padding-top: 5px; */
-    /* background-color: rgb(46, 85, 214); */
+    padding: 30px;
+    width: 18%;
+    position: fixed; 
 }
 
 .nav-menu li {
-    /* margin-left: auto;
-    margin-right: auto; */
-    /* display: inline-block; */
     display: block;
-    /* list-style: none; */
 }
 
 .nav-menu li a {
@@ -51,7 +29,6 @@ body {
     color: rgb(231, 233, 240);
     text-decoration: none;
     padding: 5px 20px;
-    
     font-size: 25px;
     font-weight: 500;
    
@@ -69,11 +46,13 @@ body {
 }
 
 .home-btn a:hover {
-    /* background-color: #FFFAFA; */
     color: #87CEEB;
 }
+
 .nav-menu img {
-    width: 300px;
+    /* width: 300px; */
+    max-width:100%;
+    max-height:100%;
     border-radius: 50%;
 }
 
@@ -82,11 +61,8 @@ body {
     /* text-align: center; */
     width: 50%;
     padding: 30;
-    /* padding-top: 50; */
-    
     background-color: #FFFAFA;
     border-radius: 15px;
-    /* margin-left: 20px; */
     margin-left: auto;
     margin-right: auto;
 }
@@ -97,9 +73,7 @@ body {
 }
 
 .card li {
-    /* display: ; */
     margin-left: 20px;
-    /* padding: 5px; */
 }
 
 .card h2 {
@@ -110,5 +84,4 @@ body {
     font-style: italic;
     text-decoration: none;
     color:mediumblue
-
 }
